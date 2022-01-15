@@ -22,3 +22,12 @@ Things you may want to cover:
 * Deployment instructions
 
 * ...
+
+
+## Error
+Webpacker can't find application
+
+````
+rails webpacker:install
+````
+This solved the problem for me.
