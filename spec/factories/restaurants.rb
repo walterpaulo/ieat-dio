@@ -1,6 +1,6 @@
 FactoryBot.define do
     factory :restaurant do
-        nome {'foo'}
-        address { 'bar'}
+        nome { Faker::Games::Pokemon.name }
+        address { Faker::Games::Pokemon.location }
     end
 end
