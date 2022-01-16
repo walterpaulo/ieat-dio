@@ -1,0 +1,17 @@
+ <p> Resturantes</p>
+       <table>
+    <thead>
+        <tr>
+            <th> Nome </th>
+            <th> Valor </th>
+        </tr>
+    </thead>
+    <tbody>
+        <% Resturant.all.each do |r| %>
+        <tr>
+            <td><%= r.nome %></td>
+            <td><%= r.value %></td>
+        </tr>
+        <% end %>
+    </tbody>
+</table>
